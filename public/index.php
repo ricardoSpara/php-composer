@@ -11,5 +11,5 @@ require '../vendor/autoload.php';
 // var_dump($home->index());
 
 
-var_dump(getTrim("asd asdas  asdasd   asd      "));
+var_dump(getTrim("asd asdas  asdasd   asd   sss   "));
 
