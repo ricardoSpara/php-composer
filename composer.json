@@ -1,0 +1,20 @@
+{
+    "name": "rs/composer-php",
+    "description": "PHP COMPOSER",
+    "authors": [
+        {
+            "name": "Ricardo Sparapan",
+            "email": "ricardo.ofice@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"files":[
+    		"app/helpers/functions.php"
+    	],
+    	"psr-4":{
+    		"RS\\" : "src/rs/",
+    		"APP\\": "App/"
+    	}
+    }
+}
